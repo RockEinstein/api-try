@@ -1,0 +1,45 @@
+composer.phar
+composer.lock
+.idea
+*.sublime*
+vendor/
+test-db/*
+!/test-db/empty
+test-result/*
+!/test-result/empty
+
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+# Legacy ZF1
+demos/
+extras/documentation
+
+#vim .sw* files
+*.sw*
+tags
+
+#netbeans folders
+.buildpath
+.project
+.settings/
+nbproject/
+
+# PhpStorm project folder
+.idea
+
+*.context
+config/connection.php
+connection.php
+

@@ -1,0 +1,21 @@
+{
+  "name": "rockeinstein/api-try",
+  "require": {
+    "php": ">= 5.5.0",
+    "rockeinstein/library": "*",
+    "doctrine/orm": "^2.4.8"
+  },
+  "autoload": {
+    "psr-0": {
+      "Rock\\Api\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Test\\Rock\\Api\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
